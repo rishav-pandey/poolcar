@@ -162,25 +162,26 @@ footer {
 	background-color: #edfafd;
 	text-transform: uppercase;
 	color: #7a97af;
+	padding-bottom: 400px;
 }
 
 
 .footer-content {
 	padding: 20px 0px 0px 40px;
-	margin-top: 20px;
 	text-transform: uppercase;
 	font-family: 'brandon-grotesque','Helvetica',sans-serif;
 }
+
 
 .footer-list ul {
 	list-style-type: none;
 	text-transform: uppercase;
 	padding-left: 40px;
+	font-size: 1.1em;
 }
 
 .footer-list li {
 	padding: 5px;
-	font-size: 1.2em;	
 }
 
 .footer-list i {
@@ -190,6 +191,10 @@ footer {
 
 .footer-list a:hover {
 	text-decoration: none;
+}
+
+.span {
+	color: #337ab7;
 }
 
 /*FOOTER*/
