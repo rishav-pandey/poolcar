@@ -107,7 +107,7 @@
 	margin: -50px;
 }
 
-.offer-ride {
+#offer-ride, #share-ride {
 	background-color: #fff;
   border-radius: 10px;
   margin-bottom: 50px;
@@ -115,11 +115,11 @@
   width: auto;
   text-align: left;
   box-shadow: 5px 5px 23px 0 #aaa;
- 	-webkit-transition: all .3s ease; 
- 	transition: all .3s ease; 
+	-webkit-transition: all .3s ease; 
+	transition: all .3s ease; 
 }
 
-#offer-ride:hover {
+#offer-ride:hover, #share-ride:hover {
   box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
 }
 
