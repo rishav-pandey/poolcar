@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109559667-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109559667-1');
+    </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <title>Pool Car</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="images" href="images/logo_favi.ico">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main-style.css">
+  <link rel="stylesheet" href="css/login-style.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div class="header-content clearfix">
+			<nav id="header-nav" class="navbar-default navbar">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a href="index.html" class="visible-lg visible-sm visible-md pull-left">
+            	<div id="logo-img" alt="Logo Image"></div>
+            </a>
+            <div class="navbar-brand">
+              <a href="index.html">
+                <h1>PoolCar</h1>
+              </a>
+            </div>
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+					</div> <!-- .navbar-header -->
+
+					<div class="collapse navbar-collapse" id="navbar-collapse-1">
+						<ul id="nav-list" class="nav navbar-nav navbar-right">
+							<li class="drop dropdown">
+                    <a class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Our Services <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+					            <li><a href="gd.html">Offer a ride</a></li>
+					            <li><a href="ud.html">Share a ride</a></li>
+					          </ul>
+                  		</li>
+							<li class="drop">
+								<a href="">About Us</a>
+							</li>
+							<li>
+								<a href="">
+									<button>Login/Signup</button>
+								</a>
+							</li>
+						</ul> <!-- #nav-list -->
+					</div>
+				</div> <!-- .container-fluid -->
+			</nav>
+		</div>
+	</header>
+
+	<div id="form-page">
+    <div class="container">
+      <div class="form">
+          <ul class="tab-group">
+            <li class="tab active"><a href="#signup"><b>SIGN UP</b></a></li>
+            <li class="tab"><a href="#login"><b>SIGN IN</b></a></li>
+          </ul>
+        <div class="tab-content">
+          <div id="signup">   
+            <div id="header">
+              <h1>Create Your User Account</h1>
+              <br>
+              <h4>Your user account is your portal to all things: your rides, wallet, and more!</h4>
+            </div>
+            <form class="signup" action="" method="post">
+              
+              <div class="top-row row">
+                <div id="topRow">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="field-wrap">
+                        <input id="input-data" type="text" required="required" autocomplete="off"  placeholder="First Name">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="field-wrap">
+                        <input id="input-data" type="text" required="required" autocomplete="off" placeholder="Last name">
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- .top-row -->
+
+              <div class="field-wrap" id="email-input">
+                <input id="input-data" type="email" required="required" autocomplete="off" placeholder="Email">
+              </div>
+
+              <div class="top-row row">
+                <div id="topRow">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="field-wrap">
+                        <input id="input-data" type="text" required="required" autocomplete="phone" pattern="[0-9]{10}" maxlength="10" placeholder="Phone No">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="field-wrap">
+                        <input id="input-data" type="password" required="required" autocomplete="off" placeholder="Password" minlength="7">
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- .top-row -->
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <div>
+                    <input type="checkbox" required="required" id="checkbox-input">
+                    <span style="font-size:14px;line-height:1.7; font-weight: bold;">I agree to the <a href="" target="_blank" style="color:#02b3e4"> Terms of Service</a> </span>
+                  </div>
+                  
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <button type="submit" class="button">CREATE A FREE ACCOUNT</button>
+                </div>
+              </div>
+            </form>
+          </div> <!-- signup -->
+          <div id="login"> 
+            <div id="header">
+              <h1>Log Into Your User Account</h1><br/>
+              <h4>Your user account is your portal to all things: your rides, wallet, and more!</h4>
+            </div>
+            <form class="signin" action="" method="post">
+              <div class="field-wrap">
+                <input id="input-data" type="email" required="required" autocomplete="off" placeholder="Email">
+              </div>
+              <div class="field-wrap">
+                <input id="input-data" type="password" required="required" autocomplete="off" placeholder="Password" minlength="7">
+              </div>
+              <div>
+                <button class="button">LOG IN</button>
+              </div>
+              <div>
+                <p class="forgot"><a href="#"><b>Forgot Password?</b></a></p>
+              </div>
+              <hr>
+              <button class="loginBtn loginBtn--facebook">
+                Login with Facebook
+              </button>
+              <button class="loginBtn loginBtn--google">
+                Login with Google
+              </button>
+            </form>
+          </div> <!-- #login -->
+        </div> <!-- .tab-content -->
+      </div> <!-- .form -->
+    </div> 
+  </div> <!-- #form-page -->
+	
+	<footer>
+  	<div class="container">
+  			<div class="row">
+  				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+  					<div class="footer-content">
+  						<h2>Contact Us</h2>
+  					</div>
+  					<div class="footer-list">
+  						<ul>
+  							<li><a href="">General Discussions</a></li>
+  							<li><a href="">University Discussions</a></li>
+  							<li><a href="">Room-mate finder</a></li>
+  							<li><a href="">Personal Dashboard</a></li>
+  						</ul>
+  					</div>
+  				</div>
+  				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="margin-bottom: 30px;">
+  					<div class="footer-content">
+  						<h2>Social Media</h2>
+  					</div>
+  					<div class="footer-list">
+  						<ul>
+  							<li><a href=""><i class="fa fa-facebook"></i>Facebook</a></li>
+  							<li><a href=""><i class="fa fa-twitter"></i>Twitter</a></li>
+  							<li><a href=""><i class="fa fa-linkedin"></i>Linkedln</a></li>
+  							<li><a href=""><i class="fa fa-instagram"></i>Instagram</a></li>
+  						</ul>
+  					</div>
+  				</div>
+  				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+  					<div class="footer-content">
+  						<h2>More</h2>
+  					</div>
+  					<div class="footer-list">
+  						<ul>
+  							<li><a href="">About Us</a></li>
+  							<li><a href="">Privacy Policy</a></li>
+  							<li><a href="">Terms of Use</a></li>
+  						</ul>
+  					</div>
+  				</div>
+  			</div> <!-- .row -->
+  	</div>
+  </footer>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
